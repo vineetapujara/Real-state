@@ -3,8 +3,8 @@ import Image from "next/image";
 import { Flex, Box, Text, Button } from "@chakra-ui/react";
 import { baseUrl, fetchApi } from "../utils/fetchApi";
 import Property from "../components/Property";
-import DefaultImage from "../assets/images/default.avif";
-import BuyImage from "../assets/images/buy.avif";
+import DefaultImage from "../assets/images/default.svg";
+import BuyImage from "../assets/images/buy.svg";
 const Banner = ({
   purpose,
   title1,
